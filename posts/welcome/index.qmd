@@ -7,7 +7,7 @@ categories: [Articles]
 
 Hola! Este es mi primer post.
 
-Me llamo Sofía y estoy estudiando la Maestría en Ciencias Agropecuarias.
+Me llamo Sofía y estoy estudiando la Maestría en Ciencias Agropecuarias. A pesar de hacer investigación, a mí me gusta pensar que hago ciencia sosa para los 'simples mortales', pues yo también me considero una. Yo pienso que al generar conocimiento debemos compartirlo de una forma en la que todos, sin importar su ocupación, puedan aprender sobre los nuevos descubrimientos de la ciencia.
 
 ![](images/7d88d65c-d758-4c4c-ac7c-1f548234da15.jpg)
 
