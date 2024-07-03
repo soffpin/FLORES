@@ -1,12 +1,14 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
+title: "BIENVENIDOS!"
+author: "Ana Sofía Pineda"
 date: "2024-06-30"
-categories: [news]
+categories: [Articles]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+Hola! Este es mi primer post.
 
-![](thumbnail.jpg)
+Me llamo Sofía y estoy estudiando la Maestría en Ciencias Agropecuarias.
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+![](images/7d88d65c-d758-4c4c-ac7c-1f548234da15.jpg)
+
+Actualmente me encuentro haciendo investigación en la Universidad Veracruzana con el cultivo de limón persa.
