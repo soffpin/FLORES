@@ -1,16 +1,15 @@
 ---
-title: "BIENVENIDOS!"
+title: "Innovando con el silicio en la agricultura"
 author: "Ana Sofía Pineda"
 date: "2024-06-30"
 categories: [Articles]
 ---
 
+
 Hola! Este es mi primer post.
 
 Me llamo Ana Sofía y estoy estudiando la Maestría en Ciencias Agropecuarias en la Facultad de Ciencias Agrícolas *Campus Xalapa*. Me gusta pensar que el propósito de generar conocimiento es compartirlo de una forma en la que todos, sin importar su ocupación, puedan aprender sobre los nuevos descubrimientos de la ciencia.
 
-![](images/7d88d65c-d758-4c4c-ac7c-1f548234da15.jpg)
-Mi tesis se titula: "Aplicación de fuentes de silicio y su efecto en el rendimiento y calidad de frutos de *Citrus latifolia* Tanaka. Este blog, de hecho, es dedicado a mi proyecto de tesis! 
+![](images/7d88d65c-d758-4c4c-ac7c-1f548234da15.jpg) 
 
-
-: BIENVENIDOS
+Mi tesis se titula: "Aplicación de fuentes de silicio y su efecto en el rendimiento y calidad de frutos de *Citrus latifolia* Tanaka. Este blog, de hecho, es dedicado a mi proyecto de tesis!
