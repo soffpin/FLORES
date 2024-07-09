@@ -12,6 +12,3 @@ title-block-banner: true
 
 author: "Ana Sofía Pineda"
 ---
-
-usethis::use_github()
-
