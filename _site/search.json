@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "CIENCIA PARA MORTALES",
     "section": "",
-    "text": "“El oro verde de México”\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInnovando con el silicio en la agricultura\n\n\n\n\n\n\nArticles\n\n\n\n\n\n\n\n\n\nJun 30, 2024\n\n\nAna Sofía Pineda\n\n\n\n\n\n\nNo matching items"
+    "text": "Innovando con el silicio en la agricultura\n\n\n\n\n\n\nArticles\n\n\n\n\n\n\n\n\n\nJun 30, 2024\n\n\nAna Sofía Pineda\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -40,5 +40,12 @@
     "title": "FLORES",
     "section": "“El oro verde de México”",
     "text": "“El oro verde de México”\nMéxico es el segundo país más importante en la producción de limón persa (Citrus latifolia Tanaka) (Wickham 2016; Bryan and Wickham 2024; Savonen 2023)"
+  },
+  {
+    "objectID": "posts/welcome/DATOS.html",
+    "href": "posts/welcome/DATOS.html",
+    "title": "FLORES",
+    "section": "",
+    "text": "suppressPackageStartupMessages(library(tidyverse)) library(ggplot2) library(readxl)"
   }
 ]
