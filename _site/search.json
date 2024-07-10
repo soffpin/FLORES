@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "CIENCIA SIMPLE",
     "section": "",
-    "text": "Innovando con el silicio en la agricultura\n\n\n\n\n\n\nArticles\n\n\n\n\n\n\n\n\n\nJun 30, 2024\n\n\nAna Sofía Pineda\n\n\n\n\n\n\nNo matching items"
+    "text": "Calidad\n\n\n\n\n\n\nArticles\n\n\n\n\n\n\n\n\n\nJul 10, 2024\n\n\nAna Sofía Pineda\n\n\n\n\n\n\n\n\n\n\n\n\nEl oro verde de Veracruz\n\n\n\n\n\n\nArticles\n\n\n\n\n\n\n\n\n\nJul 2, 2024\n\n\nAna Sofía Pineda\n\n\n\n\n\n\n\n\n\n\n\n\nInnovando con el silicio en la agricultura\n\n\n\n\n\n\nArticles\n\n\n\n\n\n\n\n\n\nJun 30, 2024\n\n\nAna Sofía Pineda\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -44,8 +44,15 @@
   {
     "objectID": "posts/welcome/DATOS.html",
     "href": "posts/welcome/DATOS.html",
-    "title": "CIENCIA SIMPLE",
+    "title": "Calidad",
     "section": "",
-    "text": "suppressPackageStartupMessages(library(tidyverse)) library(ggplot2) library(readxl)"
+    "text": "suppressPackageStartupMessages(library(tidyverse))\nlibrary(ggplot2)\nlibrary(readxl)\nCALIDAD_DE_FRUTOS_28_06 &lt;- read_excel(\"C:/Users/soffp/OneDrive/Escritorio/CALIDAD DE FRUTOS 28-06.xlsx\", \n   col_types = c(\"text\", \"skip\", \"text\", \n         \"text\", \"text\", \"skip\", \"skip\", \"skip\", \n         \"skip\", \"skip\", \"skip\", \"skip\", \"skip\", \n         \"skip\", \"skip\", \"skip\", \"skip\"))\n\nNew names:\n• `` -&gt; `...2`\n• `` -&gt; `...3`\n• `` -&gt; `...4`\n\n\n\nCALIDAD_DE_FRUTOS_28_06 &lt;- CALIDAD_DE_FRUTOS_28_06 %&gt;%\n rename(Repeticion = ...2,\n        Peso = ...3,\n        Firmeza= ...4)\n  \n\nggplot(CALIDAD_DE_FRUTOS_28_06, aes(x= Repeticion, y= Firmeza)) + \n  geom_point(color= \"blue\")"
+  },
+  {
+    "objectID": "posts/welcome/Intro.html",
+    "href": "posts/welcome/Intro.html",
+    "title": "El oro verde de Veracruz",
+    "section": "",
+    "text": "México es el segundo mayor productor de limón persa en el mundo, con Veracruz como el principal productor a nivel nacional. La alta demanda mundial de este fruto para consumo en fresco hace que su producción sea muy importante en la economía de la región. Para su comercialización y exportación, es esencial mantener la buena apariencia y la calidad tanto en sabor como en valor nutricional del limón, por lo que su manejo en el campo durante su desarrollo debe incluir prácticas como fertilización, podas, riego y cosechas.\n\nMe gusta pensar que el limón persa es el oro verde de la región, pues la producción de este cítrico es de gran importancia para la economía de la región, además de ser la principal actividad económica de muchas familias. Adicionalmente, es un fruto básico en la alimentación que tiene gran demanda casi todo el año."
   }
 ]

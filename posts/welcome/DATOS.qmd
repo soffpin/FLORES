@@ -1,1 +1,31 @@
-suppressPackageStartupMessages(library(tidyverse)) library(ggplot2) library(readxl)
+---
+title: "Calidad"
+author: "Ana Sofía Pineda"
+date: "2024-07-10"
+categories: [Articles]
+lang: es
+draft: false
+
+---
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+library(ggplot2)
+library(readxl)
+CALIDAD_DE_FRUTOS_28_06 <- read_excel("C:/Users/soffp/OneDrive/Escritorio/CALIDAD DE FRUTOS 28-06.xlsx", 
+   col_types = c("text", "skip", "text", 
+         "text", "text", "skip", "skip", "skip", 
+         "skip", "skip", "skip", "skip", "skip", 
+         "skip", "skip", "skip", "skip"))
+```
+
+```{r}
+CALIDAD_DE_FRUTOS_28_06 <- CALIDAD_DE_FRUTOS_28_06 %>%
+ rename(Repeticion = ...2,
+        Peso = ...3,
+        Firmeza= ...4)
+  
+
+ggplot(CALIDAD_DE_FRUTOS_28_06, aes(x= Repeticion, y= Firmeza)) + 
+  geom_point(color= "blue")
+```
