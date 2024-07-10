@@ -1,5 +1,6 @@
 project:
   type: website
+lang: es
 
 website:
   title: "CIENCIA SIMPLE"

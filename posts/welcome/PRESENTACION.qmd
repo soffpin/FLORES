@@ -1,8 +1,9 @@
 ---
-title: "Introduciéndonos en la ciencia detrás de la agricultura"
+title: "La ciencia detrás de la agricultura"
 author: "Ana Sofía Pineda"
 date: "2024-06-30"
-categories: [Articles]
+categories: [Artículos]
+lang: es
 ---
 
 Hola! Este es mi primer post.

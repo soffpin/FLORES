@@ -2,20 +2,20 @@
 title: "El oro verde de Veracruz"
 author: "Ana Sofía Pineda"
 date: "2024-07-02"
-categories: [Articles]
+categories: [Artículos]
+lang: es
 ---
 
 ::: {style="text-align: center; font-size: 15%; color:black; font-family: arial; font-size:20px;"}
 Después de India, México es el segundo país que produce más limón persa en el mundo y Veracruz resulta ser el principal productor a nivel nacional. La gran demanda mundial de este fruto para consumo en fresco, e incluso para su uso industrial, hace que su producción sea muy importante en la economía de la región. Para su comercialización y exportación, es esencial mantener la buena apariencia y la calidad tanto en sabor como en valor nutricional del limón, por lo que su manejo en el campo durante su desarrollo debe incluir prácticas como fertilización, podas, riego y cosechas.
 :::
 
-::: {style= "fig-align: center;"} 
+::: {layout-ncol=1}
 ![](images/IMG_20240521_111032.jpg){width="600"}
 :::
 
-
-::: {.panel-tabset}
-## Lo bueno  
+::: panel-tabset
+## Lo bueno
 
 Me gusta pensar que el limón persa es *oro verde*, pues la producción de este cítrico es de gran importancia para la economía de la región, además de ser la principal actividad económica de muchas familias. Adicionalmente, es un fruto básico en la alimentación y tiene gran demanda casi todo el año.
 
@@ -23,4 +23,3 @@ Me gusta pensar que el limón persa es *oro verde*, pues la producción de este 
 
 Sin embargo, y con el paso del tiempo logré darme cuenta de que en nuestra región existe una problemática recurrente, pues la producción de limón persa ha decaído y con ella, la calidad de los frutos, lo que afecta directamente en el precio de venta. Es un tema bastante preocupante que he analizado desde distintos puntos de vista, incluyendo el contexto social, cultural y productivo, pues considero que la agricultura no es una práctica aislada de la sociedad. Es así como me di a la tarea de investigar de qué manera podría colaborar para mejorar la situación de la citricultura hoy en día, y así es como me he ido introduciendo en el mundo de la ciencia detrás del limón persa!
 :::
-
