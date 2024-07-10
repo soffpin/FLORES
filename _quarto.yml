@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "FLORES"
+  title: "CIENCIA SIMPLE"
   navbar:
     right:
       - about.qmd

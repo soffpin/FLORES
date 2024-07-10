@@ -1,5 +1,5 @@
 ---
-title: "CIENCIA PARA MORTALES"
+title: "CIENCIA SIMPLE"
 listing:
   contents: posts
   sort: "date desc"

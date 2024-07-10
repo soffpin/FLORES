@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "CIENCIA PARA MORTALES",
+    "title": "CIENCIA SIMPLE",
     "section": "",
     "text": "Innovando con el silicio en la agricultura\n\n\n\n\n\n\nArticles\n\n\n\n\n\n\n\n\n\nJun 30, 2024\n\n\nAna Sofía Pineda\n\n\n\n\n\n\nNo matching items"
   },
@@ -44,7 +44,7 @@
   {
     "objectID": "posts/welcome/DATOS.html",
     "href": "posts/welcome/DATOS.html",
-    "title": "FLORES",
+    "title": "CIENCIA SIMPLE",
     "section": "",
     "text": "suppressPackageStartupMessages(library(tidyverse)) library(ggplot2) library(readxl)"
   }
