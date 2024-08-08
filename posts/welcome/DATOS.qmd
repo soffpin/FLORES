@@ -4,7 +4,7 @@ author: "Ana Sofía Pineda"
 date: "2024-07-10"
 categories: [Articles]
 lang: es
-draft: false
+draft: TRUE
 
 ---
 La calidad

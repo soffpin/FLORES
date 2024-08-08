@@ -42,13 +42,6 @@
     "text": "“El oro verde de México”\nMéxico es el segundo país más importante en la producción de limón persa (Citrus latifolia Tanaka) (Wickham 2016; Bryan and Wickham 2024; Savonen 2023)"
   },
   {
-    "objectID": "posts/welcome/DATOS.html",
-    "href": "posts/welcome/DATOS.html",
-    "title": "Calidad",
-    "section": "",
-    "text": "suppressPackageStartupMessages(library(tidyverse))\nlibrary(ggplot2)\nlibrary(readxl)\nCALIDAD_DE_FRUTOS_28_06 &lt;- read_excel(\"C:/Users/soffp/OneDrive/Escritorio/CALIDAD DE FRUTOS 28-06.xlsx\", \n   col_types = c(\"text\", \"skip\", \"text\", \n         \"text\", \"text\", \"skip\", \"skip\", \"skip\", \n         \"skip\", \"skip\", \"skip\", \"skip\", \"skip\", \n         \"skip\", \"skip\", \"skip\", \"skip\"))\n\nNew names:\n• `` -&gt; `...2`\n• `` -&gt; `...3`\n• `` -&gt; `...4`\n\n\n\nCALIDAD_DE_FRUTOS_28_06 &lt;- CALIDAD_DE_FRUTOS_28_06 %&gt;%\n rename(Repeticion = ...2,\n        Peso = ...3,\n        Firmeza= ...4)\n  \n\nggplot(CALIDAD_DE_FRUTOS_28_06, aes(x= Repeticion, y= Firmeza)) + \n  geom_point(color= \"blue\")"
-  },
-  {
     "objectID": "posts/welcome/Intro.html",
     "href": "posts/welcome/Intro.html",
     "title": "El oro verde de Veracruz",
@@ -74,6 +67,6 @@
     "href": "INICIO.html",
     "title": "CIENCIA SIMPLE",
     "section": "",
-    "text": "Calidad\n\n\n\n\n\n\n\n\n\n\n\n10 jul 2024\n\n\nAna Sofía Pineda\n\n\n\n\n\n\n\n\n\n\n\n\nEl oro verde de Veracruz\n\n\n\n\n\n\n\n\n\n\n\n2 jul 2024\n\n\nAna Sofía Pineda\n\n\n\n\n\n\n\n\n\n\n\n\nLa ciencia detrás de la agricultura\n\n\n\n\n\n\n\n\n\n\n\n30 jun 2024\n\n\nAna Sofía Pineda\n\n\n\n\n\n\nNo hay resultados"
+    "text": "El oro verde de Veracruz\n\n\n\n\n\n\n\n\n\n\n\n2 jul 2024\n\n\nAna Sofía Pineda\n\n\n\n\n\n\n\n\n\n\n\n\nLa ciencia detrás de la agricultura\n\n\n\n\n\n\n\n\n\n\n\n30 jun 2024\n\n\nAna Sofía Pineda\n\n\n\n\n\n\nNo hay resultados"
   }
 ]
