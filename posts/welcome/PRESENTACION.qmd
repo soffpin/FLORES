@@ -1,5 +1,5 @@
 ---
-title: "La ciencia detrás de la agricultura"
+title: "Aprendiendo a cultivar"
 author: "Ana Sofía Pineda"
 date: "2024-06-30"
 categories: [Artículos]
@@ -7,16 +7,12 @@ lang: es
 text-align: justify
 ---
 
-::: {style="font-family: arial;font-size: 15px;color: black;text-align: justify"}
-A lo largo de mi formación como ingeniera he aprendido sobre distintos cultivos.
+::: {style="font-family: arial;font-size: 20px;color: black;text-align: justify"}
+Hola!
 
-
-
-
-
-donde principalmente destacan el café, el maíz y el limón, siendo este último mi objeto de estudio para la realización de mi tesis de maestría.
+Me llamo Ana Sofía Pineda, soy ingeniera agrónoma y actualmente estoy estudiando la Maestría en Ciencias Agropecuarias en la Facultad de Ciencias Agrícolas *Campus Xalapa* perteneciente a la Universidad Veracruzana. Me encantan las plantas, la naturaleza y el trabajo de campo. Me gusta pensar que el propósito de generar conocimiento es compartirlo de una forma en la que todos podamos aprender sobre los nuevos descubrimientos de la ciencia sin importar nuestra ocupación. Yo creo que nunca es tarde para aprender o dedicarse a cosas nuevas, ya que así fue como descubrí mi gusto por la investigación, la escritura y la divulgación del conocimiento. Es por ello que he creado este blog, con el fin de compartir de manera sencilla los descubrimientos que estoy generando. 
 :::
 
-![](images/7d88d65c-d758-4c4c-ac7c-1f548234da15.jpg){fig-align="center"}
-
+::: {style="font-family: arial;font-size: 25px;color: black;text-align: center"}
+BIENVENIDOS! :)
 :::
