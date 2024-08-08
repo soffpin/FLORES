@@ -4,12 +4,13 @@ author: "Ana Sofía Pineda"
 date: "2024-06-30"
 categories: [Artículos]
 lang: es
+text-align: justify
+font-family: arial
+font-size: 15%
+color: black
 ---
 
-Hola! Este es mi primer post.
-
-Me llamo Ana Sofía Pineda, soy ingeniera agrónoma y estoy actualmente estoy estudiando la Maestría en Ciencias Agropecuarias en la Facultad de Ciencias Agrícolas *Campus Xalapa* perteneciente a la Universidad Veracruzana. Me gusta pensar que el propósito de generar conocimiento es compartirlo de una forma en la que todos podamos aprender sobre los nuevos descubrimientos de la ciencia sin importar nuestra ocupación.
+A lo largo de mi formación como ingeniera he aprendido sobre distintos cultivos que se encuentran en mi región, donde principalmente destacan el café, el maíz y el limón, siendo este último mi objeto de estudio para la realización de mi tesis de maestría. 
 
 ![](images/7d88d65c-d758-4c4c-ac7c-1f548234da15.jpg)
 
-A lo largo de mi formación he aprendido sobre distintos cultivos que se encuentran en mi región, donde principalmente destacan el café, el maíz y el limón, siendo este último mi objeto de estudio para la realización de mi tesis de maestría. 
