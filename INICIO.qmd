@@ -22,5 +22,4 @@ title-block-banner: true
 lang: es
 
 author: "Ana Sofía Pineda"
-
 ---
