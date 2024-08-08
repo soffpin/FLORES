@@ -3,11 +3,6 @@ title: "Aprendiendo a cultivar"
 author: "Ana Sofía Pineda"
 date: "2024-06-28"
 categories: [Artículos]
-lang: es
-text-align: justify
-font-family: arial
-font-size: 15%
-color: black
 ---
 
 Hola! Este es mi primer post.
