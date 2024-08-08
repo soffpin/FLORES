@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -149,10 +149,8 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
+  <li class="dropdown-header">
+ <span class="menu-text">about.qmd</span></li>
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/soffpin/FLORES"> <i class="bi bi-github" role="img">
 </i> 
@@ -173,13 +171,16 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
+    <div class="quarto-title column-page">
       <h1 class="title">CIENCIA SIMPLE</h1>
-                      </div>
+                                <div class="quarto-categories">
+                <div class="quarto-category">true</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta column-page">
 
       <div>
       <div class="quarto-title-meta-heading">Autor/a</div>
@@ -196,11 +197,9 @@ window.Quarto = {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Articles">Articles <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Artículos">Artículos <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
@@ -215,7 +214,7 @@ window.Quarto = {
 <div class="quarto-post image-right" data-index="0" data-categories="Articles" data-listing-date-sort="1720591200000" data-listing-file-modified-sort="1720631937802" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
 <div class="thumbnail">
 <p><a href="./posts/welcome/DATOS.html" class="no-external"></a></p><a href="./posts/welcome/DATOS.html" class="no-external">
-<p class="card-img-top"><img src="posts\welcome\DATOS_files\figure-html\unnamed-chunk-2-1.png"  class="thumbnail-image card-img"/></p>
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:posts/welcome/DATOS.html -->
 </a><p><a href="./posts/welcome/DATOS.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -225,17 +224,8 @@ window.Quarto = {
 <div class="listing-subtitle">
 <a href="./posts/welcome/DATOS.html" class="no-external"></a>
 </div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Articles'); return false;">
-Articles
-</div>
-</div>
 <div class="listing-description">
-<a href="./posts/welcome/DATOS.html" class="no-external">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(tidyverse))</span>
-<span id="cb1-2"><span class="fu">library</span>(ggplot2)</span>
-<span id="cb1-3"><span class="fu">library</span>(readxl)</span>
-<span id="cb1-4">CALIDAD_DE_FRUTOS_28_06 <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"C:/Users/soffp/OneDrive/Escritorio/CALIDAD DE…</span></span><span id="cb1-5"><span class="at"></span><span class="fu"></span><span class="st"></span><span class="st"></span><span class="st"></span></span><span id="cb1-6"><span class="st"></span><span class="st"></span><span class="st"></span><span class="st"></span><span class="st"></span></span><span id="cb1-7"><span class="st"></span><span class="st"></span><span class="st"></span><span class="st"></span><span class="st"></span></span><span id="cb1-8"><span class="st"></span><span class="st"></span><span class="st"></span><span class="st"></span></span></code></pre></div><div class="cell-output cell-output-stderr"><pre><code></code></pre></div></a>
+<a href="./posts/welcome/DATOS.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/welcome/DATOS.html --></a>
 </div>
 </div>
 <div class="metadata">
@@ -252,7 +242,7 @@ Ana Sofía Pineda
 <div class="quarto-post image-right" data-index="1" data-categories="Artículos" data-listing-date-sort="1719900000000" data-listing-file-modified-sort="1720637891685" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="284">
 <div class="thumbnail">
 <p><a href="./posts/welcome/INTRODUCCION.html" class="no-external"></a></p><a href="./posts/welcome/INTRODUCCION.html" class="no-external">
-<p class="card-img-top"><img src="posts\welcome\images\IMG_20240521_111032.jpg"  class="thumbnail-image card-img"/></p>
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:posts/welcome/INTRODUCCION.html -->
 </a><p><a href="./posts/welcome/INTRODUCCION.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -262,13 +252,8 @@ Ana Sofía Pineda
 <div class="listing-subtitle">
 <a href="./posts/welcome/INTRODUCCION.html" class="no-external"></a>
 </div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Artículos'); return false;">
-Artículos
-</div>
-</div>
 <div class="listing-description">
-<a href="./posts/welcome/INTRODUCCION.html" class="no-external">Después de India, México es el segundo país que produce más limón persa en el mundo y Veracruz resulta ser el principal productor a nivel nacional. La gran demanda mundial…</a>
+<a href="./posts/welcome/INTRODUCCION.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/welcome/INTRODUCCION.html --></a>
 </div>
 </div>
 <div class="metadata">
@@ -285,7 +270,7 @@ Ana Sofía Pineda
 <div class="quarto-post image-right" data-index="2" data-categories="Artículos" data-listing-date-sort="1719727200000" data-listing-file-modified-sort="1720637857711" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="109">
 <div class="thumbnail">
 <p><a href="./posts/welcome/PRESENTACION.html" class="no-external"></a></p><a href="./posts/welcome/PRESENTACION.html" class="no-external">
-<p class="card-img-top"><img src="posts\welcome\images\7d88d65c-d758-4c4c-ac7c-1f548234da15.jpg"  class="thumbnail-image card-img"/></p>
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:posts/welcome/PRESENTACION.html -->
 </a><p><a href="./posts/welcome/PRESENTACION.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -295,13 +280,8 @@ Ana Sofía Pineda
 <div class="listing-subtitle">
 <a href="./posts/welcome/PRESENTACION.html" class="no-external"></a>
 </div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Artículos'); return false;">
-Artículos
-</div>
-</div>
 <div class="listing-description">
-<a href="./posts/welcome/PRESENTACION.html" class="no-external">Hola! Este es mi primer post.</a>
+<a href="./posts/welcome/PRESENTACION.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/welcome/PRESENTACION.html --></a>
 </div>
 </div>
 <div class="metadata">
