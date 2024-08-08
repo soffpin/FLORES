@@ -2,9 +2,7 @@ project:
   type: website
 lang: es
 text-align: justify
-font-family: arial
-font-size: 15px
-color: black
+
 
 website:
   title: "CIENCIA SIMPLE"
